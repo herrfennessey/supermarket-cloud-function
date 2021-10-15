@@ -1,0 +1,10 @@
+# Function dependencies, for example:
+# package>=version
+google-cloud-storage==1.38.0
+transformers==4.5.1
+click==7.1.2
+-f https://download.pytorch.org/whl/torch_stable.html
+torch==1.9.0+cpu
+
+# I run this on a linux VM, and because the CPU and GPU versions of torch are different, we have to specify cpu
+# If you want to run this on a mac, you can simply install torch==1.9.0
